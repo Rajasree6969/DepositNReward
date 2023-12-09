@@ -1,9 +1,10 @@
 # DepositNReward
 **Preview:**
 
-**Contract address** : 0xCeB4791a11D9C36177De65F38447abDB96aB688B
-
+**Scroll Contract address** : 0xCeB4791a11D9C36177De65F38447abDB96aB688B
 **Link to Scroll-Etherscan** : https://sepolia.scrollscan.dev/tx/0x6340a2816f6b31b0ce51204e3d28da2a144adfe8ff3c6e6c6112325f2d77f073
+
+**Linea Goerli Contract Address** : 0x05c03c73934a5a2be4dd4a9e10f392ab9d99d42a
 
 The DepositNReward aims to manipulate a deposit and praise gadget for customers interacting with an Aave lending pool. Here's  is a concise breakdown:
 Contract:
