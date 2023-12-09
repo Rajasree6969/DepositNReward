@@ -1,8 +1,12 @@
-# DepositNReward
+# DepositnReward
 **Preview:**
 
 **Scroll Contract address** : 0xCeB4791a11D9C36177De65F38447abDB96aB688B
+
 **Link to Scroll-Etherscan** : https://sepolia.scrollscan.dev/tx/0x6340a2816f6b31b0ce51204e3d28da2a144adfe8ff3c6e6c6112325f2d77f073
+
+
+**Arbitrum Sepolia Contract Address** : 0x1d1524a94c8af56b6a95fcb5ba231b5b505d4f11
 
 **Linea Goerli Contract Address** : 0x05c03c73934a5a2be4dd4a9e10f392ab9d99d42a
 
