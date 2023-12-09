@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Popup from "../components/popup/popup";
-import Logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 import "./home.css";
 const HomePage = () => {
   const [popup, setpopup] = useState(false);
@@ -32,38 +32,18 @@ const HomePage = () => {
       {popup && <Popup closepopup={() => close()} />}
       <div className="box-home">
         <div className="box-image">
-          <img src={Logo} alt="" id="logo" />
-          <h1>ChromoZK.gen</h1>
+          <img src={logo} alt="" id="logo" />
+          <h1>D n R</h1>
         </div>
 
         <strong>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
-          ratione nulla quasi at dolorem, ipsa ut quia maxime enim labore soluta
-          provident dignissimos voluptatem tenetur sunt optio error debitis,
-          necessitatibus commodi architecto.
+        We all have a habbit to borrow loan and reward ourselves with purchases and later pay EMI.
+        In recent days we also have the trend of Buy Now Pay Later (BNPL).
         </strong>
         <div className="box-btns">
           <button onClick={() => setpopup(true)}>Invest</button>
         </div>
-      </div>
-      <div className="con-partners">
-        <div className="box-partners">
-          <div className="parth">
-            <h3>Partners</h3>
-          </div>
-          <div className="partner">
-            <img src="" alt="" />
-            <p className="p-name">Scroll</p>
-          </div>
-          <div className="partner">
-            <img src="" alt="" />
-            <p className="p-name">Airstack</p>
-          </div>
-          <div className="partner">
-            <img src="" alt="" />
-            <p className="p-name">Polygon</p>
-          </div>
-        </div>
+      
       </div>
     </div>
   );
