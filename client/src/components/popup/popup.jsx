@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { GiCancel } from "react-icons/gi";
+import { GiCancel, GiWavyItinerary } from "react-icons/gi";
 import "./popup.css";
 
 const Popup = ({ closepopup }) => {
@@ -22,10 +22,16 @@ const Popup = ({ closepopup }) => {
       dailyDepositAmount,
       fixedInterest,
     });
+    let c = document.getElementById("try-it");
+    c.innerHTML = "<div class='success'> Please wait, investing with 😍</div>";
+    const hey = () => {
+      c.innerHTML = "<div class='success'> Success ✅😊</div>";
+    }
+    setTimeout(hey, 3000);
   };
 
   return (
-    <div className="con-home-popup">
+    <div className="con-home-popup" id="try-it">
       <div className="popup-header">
         <h3>Complete Details</h3>
         <GiCancel className="cross" onClick={handleClick} />
