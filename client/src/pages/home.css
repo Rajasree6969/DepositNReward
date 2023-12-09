@@ -1,0 +1,107 @@
+.con-home{
+    display: flex;
+    height: 100vh;
+   background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Free-Website-BAckgrounds1.jpg");
+    width: 100vw;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    align-items: center;
+    background-size: cover;
+}
+h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+.box-image{
+   text-overflow: ellipsis;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 15px;
+    object-fit: cover;
+   
+}
+.box-home{
+    background-color: rgba(245, 240, 240, 0.4);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+    display: flex;
+    border-radius: 15px;
+   width: 500px;
+   padding: 10px;
+   height: max-content;
+   gap: 30px;
+   flex-direction: column;
+}
+ strong{
+    margin: 0;
+    padding: 0;
+}
+.box-btns{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.parth{
+    background-color: rgb(94, 94, 8);
+    color: white;
+    border-radius: 10px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+
+
+}
+.box-btns button{
+    padding: 5px 20px;
+    background-color: #2B3674;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    object-position: center;
+}
+.con-partners{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+    position: fixed;
+    height: calc(100vh-60px);
+    width: 150px;
+    top: 30px;
+    padding-top: 15px;
+    bottom: 30px;
+    flex-direction: column;
+    right: 15px;
+    border-radius: 10px;
+    
+    align-items: center;
+    
+}
+.con-partners .partner{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.p-name{
+    background: #2B3674;
+    color: white;
+    border-radius: 5px;
+    min-width: 60px;
+    padding: 5px 25px;
+
+}
