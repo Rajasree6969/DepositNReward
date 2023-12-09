@@ -1,4 +1,6 @@
 # DepositNReward
+Preview:
+
 Contract address : 0xCeB4791a11D9C36177De65F38447abDB96aB688B
 Link to Scroll-Etherscan : https://sepolia.scrollscan.dev/tx/0x6340a2816f6b31b0ce51204e3d28da2a144adfe8ff3c6e6c6112325f2d77f073](https://sepolia.scrollscan.com/address/0xceb4791a11d9c36177de65f38447abdb96ab688b
 
@@ -12,6 +14,8 @@ Functionality:
 3. 'transfer'- Calls the Aave lending pool's deposit function, enabling the transfer of funds to the lending pool.
 4. 'claimReward': Users can claim rewards based on predefined conditions, such as completing the deposit and buffer periods. Rewards are calculated based on the fixed interest percentage provided during investment and sets the UserDeposits to zero.
 
+
+Code:
 //SPDX-License-Identifier: Unlicensed
 pragma solidity ^0.8.0;
 
