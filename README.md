@@ -8,7 +8,8 @@
 The DepositNReward aims to manipulate a deposit and praise gadget for customers interacting with an Aave lending pool. Here's  is a concise breakdown:
 Contract:
 The contract facilitates user deposits, tracks deposit periods, and allows users to claim rewards based on their deposited amounts and specified percentages which can be fixed or variable on the wish of investor.
-Functionality:
+
+**Functionality**:
 1. '_Invest_' - Users can invest by specifying parameters like deposit period, buffer period, daily deposit amount, and a fixed interest percentage.
 2. '_Deposit_'- Allows users to deposit the specified daily deposit amount and tracks the last deposit timestamp.
 3. '_transfer_'- Calls the Aave lending pool's deposit function, enabling the transfer of funds to the lending pool.
