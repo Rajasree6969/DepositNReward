@@ -1,10 +1,10 @@
 //SPDX-License-Identifier: Unlicensed
-pragma solidity ^0.5.0;
+pragma solidity ^0.8.0;
 
 
-contract IAaveLendingPool {
+interface IAaveLendingPool {
   
-  function deposit(address _reserve, uint256 _amount) public;
+  function deposit(address _reserve, uint256 _amount) external;
   
   }
 
