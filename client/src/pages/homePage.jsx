@@ -38,7 +38,8 @@ const HomePage = () => {
 
         <strong>
         We all have a habbit to borrow loan and reward ourselves with purchases and later pay EMI.
-        In recent days we also have the trend of Buy Now Pay Later (BNPL).
+        In recent days we also have the trend of Buy Now Pay Later (BNPL). 
+        We are now building Pay now buy later, Invest first, yield intrest, buy later. The best way possible.
         </strong>
         <div className="box-btns">
           <button onClick={() => setpopup(true)}>Invest</button>
